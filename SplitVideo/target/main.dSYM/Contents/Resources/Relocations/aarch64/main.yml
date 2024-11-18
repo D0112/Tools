@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ysnw/Documents/SplitVideo/target/main'
+relocations:     []
+...

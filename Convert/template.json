@@ -1,0 +1,12 @@
+[
+    {
+        "instruction": "Predict the ActualTakeOffDateTime of the flight.",
+        "input": "Flight_number: CZ5992, Flight_date: 2023/12/26, ScheduledDateTime: 2023/12/26 20:50, CheckInOpenDateTime: 2023/12/26 17:50, CheckInCloseDateTime: 2023/12/26 20:50, Route: SHA-WUH", 
+        "output": "2023/12/26 20:50"
+    },
+    {
+        "instruction": "Predict the ActualTakeOffDateTime of the flight.",
+        "input": "Flight_number: MU5274, Flight_date: 2023/12/26, ScheduledDateTime: 2023/12/26 22:30, CheckInOpenDateTime: 2023/12/26 22:23, CheckInCloseDateTime: 2023/12/26 19:30, Route: SHA-TYN",
+        "output": "2023/12/26 22:23"
+    }
+]

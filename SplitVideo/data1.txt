@@ -1,0 +1,4 @@
+root_path:/Users/ysnw/Desktop/multi_camera_video_0805/
+file: 5336-2024-08-05_15-23-00.mp4 start_time: 00:06:14 end_time: 00:06:30
+file: 5320-2024-08-05_15-22-03.mp4 start_time: 00:07:32 end_time: 00:08:07
+file: 5328-2024-08-05_15-22-35.mp4 start_time: 00:07:46 end_time: 00:08:06

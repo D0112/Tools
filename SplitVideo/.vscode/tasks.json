@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: clang++ build active file",
+            "command": "/usr/bin/clang++",
+            "args": [
+                "-fcolor-diagnostics",
+                "-fansi-escape-codes",
+                "-std=c++17",
+                "-g",
+                "${fileDirname}/*.cpp",
+                "-o",
+                "${workspaceFolder}/target/${fileBasenameNoExtension}",
+                "-I/opt/homebrew/include",
+                "-I/usr/local/include",
+                "-L/opt/homebrew/lib",
+                "-L/usr/local/lib",
+                "-lavformat",
+                "-lavcodec",
+                "-lavutil",
+                "-lavdevice",
+                "-lavfilter",
+                "-lswscale"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
